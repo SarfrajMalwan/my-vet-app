@@ -1,0 +1,41 @@
+.Catfood {
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+
+    .container{
+
+        .row{
+            justify-content: center;
+        }
+    }
+
+}
+
+.card {
+    border-style: none;
+    .card-body{
+    
+     
+    // background-color: black;
+     padding-left: 20px;
+    
+     span{
+       padding-left: 20px;
+     }
+    
+    button{
+     background-color: #003366;
+     border-radius: 15px;
+     color: white;
+     width: 230px;
+     height: 45px;
+     font-weight: 500;
+    
+    }
+}}

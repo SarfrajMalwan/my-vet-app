@@ -1,0 +1,135 @@
+.login-but {
+    background-color: maroon;
+}
+
+.navbars {
+
+    
+
+    height: 100px;
+    
+
+
+}
+
+.sideIcon {
+    display: none;
+}
+
+.sidebar {
+    border: solid 1px black;
+    background-color: rgb(101, 43, 66);
+
+    width: 100%;
+    height: 100vh;
+
+    position: fixed;
+
+    top: 100px;
+    right: 0px;
+    display: none;
+    text-align: center;
+}
+
+.upnavbar {
+
+   // display: block;
+   width: 600px;
+  
+  
+
+   .input-group {
+
+    border: 2px solid  #003366;
+    border-radius: 10px;
+   }
+
+  
+
+  
+  
+
+ 
+
+  .nav-link { 
+    
+   padding-top: 20px;
+   
+    
+    ul {
+
+        background-color: #003366;
+        width: 100%;
+        border-radius: 10px;
+        
+    
+    li {
+         display: inline-block;
+        line-height: 50px;
+        margin: 0 5px;
+        text-transform: uppercase;
+        font-size: 15px;
+        
+        
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: 500;
+            color: white;
+        }
+
+
+
+        // li a:hover {
+        //     background-color: maroon;
+        //     transition: .5s;
+        // }
+    }
+
+
+  }
+  }
+
+
+}
+
+
+
+@media (max-width:700px) {
+    .sideIcon {
+        display: block;
+    }
+
+    .sidebar {
+        display: block;
+    }
+
+    .upnavbar {
+        display: none;
+    }
+}
+
+.num {
+    background-color: #003366;
+    border-radius: 20px;
+
+    height: 40px;
+    width: 9%;
+    padding-left: 18px;
+    padding-top: 5px;
+}
+
+small {
+    color: white;
+}
+
+.padivate img {
+    width: 80px;
+    margin-left: 10px;
+    margin-right: 0px;
+
+
+
+
+}
