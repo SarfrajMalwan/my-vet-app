@@ -87,7 +87,9 @@ const detail = () => {
                 <h6> M.R.P= {data?.price}</h6>
                 <p> Inclusive of all taxes</p>
               </div>
-              <button> add to bag </button>
+              <button onClick={() => {
+                router.push("/Cart")
+              }}> add to bag </button>
 
               <div className="information">
                 <h6> BRAND:{data?.brand} </h6>

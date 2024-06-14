@@ -1,15 +1,95 @@
 .Checkout {
     width: 100%;
-    height: 290px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    
+    .container{
+
+        .row{
+            //border: 1px solid black;
+            
+           
+            .chack1{
+               padding-top: 30px;
+               // background-color: black;
+               padding-bottom: 10px;
+            form{
+                width: 100%;
+                height: auto;
+
+                .emails{
+                    width: 100%;
+                }
+                
+                .check{
+                    display: flex;
+                    
+                    p{
+                        //padding-top: 12px;
+                        padding-left: 10px;
+                    }
+                }
+
+                .method{
+                    background-color: rgb(217, 212, 212);
+                    height: 40px;
+                   
+                    p{
+                        color: black;
+                        padding-top: 7px;
+                        padding-left: 20px;
+                    }
+                }
+               
+            } 
+        }
+            .chack2{
+
+          padding-top: 50   px;
+           
+
+            .additems{
+            
+               // border: 1px solid black;
+                width: 100%;
+                height: 700px;
+                border: 1px solid black;
+                border-radius: 20px;
+                
+                .heading{
+                    background-color:#003366;
+                    width: 100%;
+                    height: 60px;
+                   // border-radius: 20px;
+                   color: white;
+                   border-radius:   20px; 
+                   align-items: center;
+                   justify-content: center;
+                   display: flex;
+
+                  
+                }
+            }}
+        }
+    }
 }
 
 .nav {
-    background-color: black;
+    background-color:#003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    margin: 10px;
+    border-radius: 10px;
 
     h1 {
-        color: red;
+        color: white;
+        padding-left: 20px;
+
+    }
+
+    span{
+       padding-right: 50px;
+        color: white;
     }
 }

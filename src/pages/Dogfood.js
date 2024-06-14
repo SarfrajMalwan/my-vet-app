@@ -52,7 +52,7 @@ const DogFoodCard = ({ title, price, img, id }) => {
     return (
         <>
             <div className="card col-md-3  " >
-                <h2>id : {id}</h2>
+                {/* <h2>id : {id}</h2> */}
                 <img src={img} className="card-img-top" alt="..." onClick={() => { router.push(`/${id}/details`) }} />
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
